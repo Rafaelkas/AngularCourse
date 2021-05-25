@@ -1,5 +1,5 @@
 "use strict";
-exports.__esModule = true;
+Object.defineProperty(exports, "__esModule", { value: true });
 exports.Exam = void 0;
 var Exam = /** @class */ (function () {
     function Exam() {
@@ -32,3 +32,4 @@ var Exam = /** @class */ (function () {
     return Exam;
 }());
 exports.Exam = Exam;
+//# sourceMappingURL=exam.js.map

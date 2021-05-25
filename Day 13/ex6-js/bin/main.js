@@ -1,5 +1,5 @@
 "use strict";
-exports.__esModule = true;
+Object.defineProperty(exports, "__esModule", { value: true });
 var exam_1 = require("./exam");
 console.log('hey');
 var exam = new exam_1.Exam();
@@ -53,3 +53,4 @@ console.log(answer2);
 console.log(exam.grade(answer2));
 console.log(answer3);
 console.log(exam.grade(answer3));
+//# sourceMappingURL=main.js.map
