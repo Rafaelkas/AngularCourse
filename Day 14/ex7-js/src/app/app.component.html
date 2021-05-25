@@ -1,0 +1,12 @@
+<h4>1#: </h4><input #firstNumber (input)="setNumber1(firstNumber.value)" type="number" [disabled]="isBusy">
+<br>
+<h4>2#: </h4><input #secondNumber (input)="setNumber2(secondNumber.value)" type="number" [disabled]="isBusy">
+<br><img *ngIf="isBusy" 
+src="https://thumbs.gfycat.com/RelievedSilentArcticwolf-max-1mb.gif"><br>
+<button (click)="calculator()" [disabled]="isBusy">Go!</button>
+<ul>
+  <li *ngFor="let res of results; let mispar = index">
+      {{mispar+1}}. {{res}}
+  </li>
+</ul>
+<!--<h1>Hello World</h1>-->
