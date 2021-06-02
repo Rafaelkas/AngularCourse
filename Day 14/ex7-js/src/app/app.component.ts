@@ -9,39 +9,45 @@ export class AppComponent {
     // data
     inputNumber1: number = 0;
     inputNumber2: number = 0;
-    results: string[] = [];
-    isBusy: boolean = false;
+
+    sum: number | null = null;
+    difference: number | null = null;
+    product: number | null = null;
+
+    get hasResults(): boolean {
+      return (this.sum !== null) && 
+      (this.difference !== null) &&
+      (this.product !== null)
+    } 
+
+    private _reset() {
+        this.sum = null;
+        this.difference = null;
+        this.product = null;
+    }
 
     // methods
     setNumber1(value: string) {
         this.inputNumber1 = Number(value);
+        this._reset();
+
     }
     setNumber2(value: string) {
-      this.inputNumber2 = Number(value);
+        this.inputNumber2 = Number(value);
+        this._reset();
     }
 
-    add()
-    {
-        return this.inputNumber1 + this.inputNumber2;
-    }
+    calc() {
+      if((this.inputNumber1 === null) || (this.inputNumber2 === null))
+      {
+        this._reset();
+      }
+      else
+      {
+        this.sum = this.inputNumber1 + this.inputNumber2;
+        this.difference = this.inputNumber1 - this.inputNumber2;
+        this.product = this.inputNumber1 * this.inputNumber2;
+      }
 
-    subtract()
-    {
-        return this.inputNumber1 - this.inputNumber2;
-    }
-
-    multiply()
-    {
-        return this.inputNumber1 * this.inputNumber2;
-    }
-
-    calculator() {
-            this.isBusy = true;
-            this.results = [
-              "The add of" + " " + this.inputNumber1 + " + " + this.inputNumber2 + " = " + this.add(), 
-              "The subtract of" + " " + this.inputNumber1 + " - " + this.inputNumber2 + " = " + this.subtract(), 
-              "The multiply of" + " " + this.inputNumber1 + " * " + this.inputNumber2 + " = " + this.multiply()
-           ];
-           this.isBusy = false;
     }
 }
