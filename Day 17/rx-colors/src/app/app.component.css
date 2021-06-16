@@ -1,0 +1,14 @@
+:host {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+h1 {
+    color: green;
+}
+
+app-color-presenter {
+    margin: 10px;
+}

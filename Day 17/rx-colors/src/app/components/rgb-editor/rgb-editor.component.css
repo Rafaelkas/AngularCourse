@@ -1,0 +1,18 @@
+:host {
+    display: flex;
+    flex-direction: column;
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+}
+
+span {
+    width: 80px;
+}
+
+input {
+    color: blue
+}
