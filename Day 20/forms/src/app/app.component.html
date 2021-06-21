@@ -1,0 +1,16 @@
+<div class="form" [formGroup]="form">
+  <div class="form-field">
+    <label>Name</label>
+    <input type="text" formControlName="name">
+  </div>
+  <div class="form-field">
+    <label>Description</label>
+    <textarea rows="4" formControlName="description"></textarea>
+  </div>
+  <div class="form-field">
+    <label>Poster</label>
+    <input type="text" formControlName="poster">
+  </div>
+</div>
+
+<button [disabled]="form.invalid" (click)="onGo()">Go</button>
