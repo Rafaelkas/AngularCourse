@@ -1,0 +1,15 @@
+C:\Users\Camputer\source\repos\johnbryce\johnbryce.Contract\bin\Debug\net5.0\johnbryce.Contract.deps.json
+C:\Users\Camputer\source\repos\johnbryce\johnbryce.Contract\bin\Debug\net5.0\johnbryce.Contract.dll
+C:\Users\Camputer\source\repos\johnbryce\johnbryce.Contract\bin\Debug\net5.0\ref\johnbryce.Contract.dll
+C:\Users\Camputer\source\repos\johnbryce\johnbryce.Contract\bin\Debug\net5.0\johnbryce.Contract.pdb
+C:\Users\Camputer\source\repos\johnbryce\johnbryce.Contract\bin\Debug\net5.0\johnbryce.DataModel.dll
+C:\Users\Camputer\source\repos\johnbryce\johnbryce.Contract\bin\Debug\net5.0\johnbryce.DataModel.pdb
+C:\Users\Camputer\source\repos\johnbryce\johnbryce.Contract\obj\Debug\net5.0\johnbryce.Contract.csprojAssemblyReference.cache
+C:\Users\Camputer\source\repos\johnbryce\johnbryce.Contract\obj\Debug\net5.0\johnbryce.Contract.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Camputer\source\repos\johnbryce\johnbryce.Contract\obj\Debug\net5.0\johnbryce.Contract.AssemblyInfoInputs.cache
+C:\Users\Camputer\source\repos\johnbryce\johnbryce.Contract\obj\Debug\net5.0\johnbryce.Contract.AssemblyInfo.cs
+C:\Users\Camputer\source\repos\johnbryce\johnbryce.Contract\obj\Debug\net5.0\johnbryce.Contract.csproj.CoreCompileInputs.cache
+C:\Users\Camputer\source\repos\johnbryce\johnbryce.Contract\obj\Debug\net5.0\johnbryce.Contract.csproj.CopyComplete
+C:\Users\Camputer\source\repos\johnbryce\johnbryce.Contract\obj\Debug\net5.0\johnbryce.Contract.dll
+C:\Users\Camputer\source\repos\johnbryce\johnbryce.Contract\obj\Debug\net5.0\ref\johnbryce.Contract.dll
+C:\Users\Camputer\source\repos\johnbryce\johnbryce.Contract\obj\Debug\net5.0\johnbryce.Contract.pdb

@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "name": "Group No.1",
+    "items": [
+      {
+        "id": 1,
+        "name": "Todo 1 Group 1",
+        "description": "Desc",
+        "isCompleted": false,
+        "group": null,
+        "groupId": 1
+      },
+      {
+        "id": 2,
+        "name": "Todo 2 Group 1",
+        "description": "Desc",
+        "isCompleted": false,
+        "group": null,
+        "groupId": 1
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Group No.2",
+    "items": [
+      {
+        "id": 3,
+        "name": "Todo 1 Group 2",
+        "description": "Desc",
+        "isCompleted": false,
+        "group": null,
+        "groupId": 2
+      },
+      {
+        "id": 4,
+        "name": "Todo 2 Group 2",
+        "description": "Desc",
+        "isCompleted": false,
+        "group": null,
+        "groupId": 2
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Group No.3",
+    "items": [
+      {
+        "id": 5,
+        "name": "Todo 1 Group 3",
+        "description": "Desc",
+        "isCompleted": false,
+        "group": null,
+        "groupId": 3
+      },
+      {
+        "id": 6,
+        "name": "Todo 2 Group 3",
+        "description": "Desc",
+        "isCompleted": false,
+        "group": null,
+        "groupId": 3
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Group No.4",
+    "items": [
+      {
+        "id": 7,
+        "name": "Todo 1 Group 4",
+        "description": "Desc",
+        "isCompleted": false,
+        "group": null,
+        "groupId": 4
+      },
+      {
+        "id": 8,
+        "name": "Todo 2 Group 4",
+        "description": "Desc",
+        "isCompleted": false,
+        "group": null,
+        "groupId": 4
+      }
+    ]
+  }
+]
