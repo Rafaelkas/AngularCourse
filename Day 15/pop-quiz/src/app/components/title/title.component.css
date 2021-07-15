@@ -1,6 +1,7 @@
 h1 {
     text-align: center;
-    color: lightskyblue;
+    color: lightseagreen;
+    background: rgb(32, 178, 171, 0.2);
     margin: 0px;
     padding: 4px;
 }

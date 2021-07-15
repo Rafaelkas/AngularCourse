@@ -8,23 +8,15 @@ import { Questions } from './model/questions';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  currentQuestion: Question;
-  currentQuestionIndex: number;
-  summary: Question[];
-  isQuizOver: boolean;
-  maxLength: number;
-  score: number;
-  correctAnswers: number; 
+  currentQuestionIndex: number = 0;
+  currentQuestion: Question = Questions[this.currentQuestionIndex];
+  summary: Question[] = [];
+  isQuizOver: boolean = false;
+  maxLength: number = Questions.length;
+  score: number = 0;
+  correctAnswers: number = 0; 
 
-  constructor(){
-    this.currentQuestionIndex = 0;
-    this.currentQuestion = Questions[this.currentQuestionIndex];
-    this.summary = [];
-    this.isQuizOver = false;
-    this.maxLength = Questions.length;
-    this.score = 0;
-    this.correctAnswers = 0;
-  }
+  constructor(){ }
 
   userSelectAnswer(answer: string) {
     if(!this.isQuizOver) {

@@ -1,4 +1,4 @@
-.root {
+:host {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -6,7 +6,7 @@
 }
 
 .answer-box {
-    height: 60px;
+    height: 70px;
     margin: 8px;
     border: 1px solid gray;
     border-radius: 10px;
