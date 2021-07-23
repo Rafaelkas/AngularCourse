@@ -1,0 +1,12 @@
+My service id is: {{additionService.uid}}
+
+My wrong service id is: {{wrongAdditionService.uid}}
+
+<input #inputA (input)="setA(inputA.value)">
++
+<input #inputB (input)="setB(inputB.value)">
+
+<button (click)="calc()">=</button>
+
+{{res}}
+
